@@ -1,80 +1,44 @@
-#sign
-{
-	position: relative;
-	bottom: 110px;
-}
-.mover
-{
-	width: 1140px;		
-}
-.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img 
-{
-    display: block;
-    max-width: 100%;
-    height: 400px;
-}
-#logo
-{
-	margin-left: 30px;
-}
+
+
+
 #vision
 {
 	background-image: url("../img/isro.jpeg");
 	width: 100%;
 	height: 250px;
 }
-.Lang
-{
-	position: relative;
-	bottom: 80px;
-	left:600px;
-}
-.Lang li
-{
-	display: inline;
-}
-#horn
-{
-	width: 10%;
-	margin-left: 140px;
-}
-#feat
-{
-	margin-top: 10px;
-}
-#tit
-{
-	color:red;
-	position: relative;
-	bottom: 100px;
-	left: 200px;
-}
+
+
+
+
 #moon
 {
 	background-image: url("../img/moon.jpeg");
 	height: 275px;
 }
+
+.panel
+{
+    height: 275px;
+}
 #but
 {
-	background-color: red;
-	position: relative;
-	top:200px;
-	left:80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-footer
+
+#ll
 {
-	height: 300px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
 }
-#map
+#mover
 {
-	height:250px;
-	position:relative;
-	top: 20px;
+    height: 400px;
 }
-#ll li
-{
-	display: inline;
-}
+
 /*#slide1
 {
   background: url(gy.jpeg) top left no-repeat;
@@ -91,6 +55,58 @@ footer
   height: 100px;
   width: 1024px;
   margin-top: 100px;
-  margin-left: 300px;
+  margin-left: 300px;<div class="row">
+                        <div class="col-md-8 offset-md-2">
+                            <form>
+                                <!-- Form Title -->
+                                <div class="form-heading text-center">
+                                    <div class="title">Registration</div>
+                                    <p class="title-description">Already have an account? <a href="#">Sign in.</a></p>
+                                    <!-- Social Line -->
+                                    <div class="social-line"> <a href="#"><i class="fa fa-facebook-square"></i></a> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-google-plus"></i></a> </div>
+                                </div>
+                                <!-- First & Last Name -->
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label class="floating-label">First Name</label>
+                                        <input type="text"> </div>
+                                    <div class="col-md-6">
+                                        <label class="floating-label">Last Name</label>
+                                        <input type="text"> </div>
+                                </div>
+                                <!-- Username & Email -->
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label class="floating-label">Username</label>
+                                        <input type="text"> </div>
+                                    <div class="col-md-6">
+                                        <label class="floating-label label-required">Email address</label>
+                                        <input type="email" required=""> </div>
+                                </div>
+                                <!-- Password -->
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label class="floating-label">Password</label>
+                                        <input type="password"> </div>
+                                    <div class="col-md-6">
+                                        <label class="floating-label">Re-password</label>
+                                        <input type="password"> </div>
+                                </div>
+                                <!-- Checkbox -->
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <input type="checkbox">
+                                        <label>Do you agree to the <a href="#">terms and conditions?</a></label>
+                                    </div>
+                                </div>
+                                <!-- Create Account Button -->
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <button class="adam-button">CREATE ACCOUNT</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
 
 }*/
